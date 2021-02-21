@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17709" systemVersion="20C69" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Member" representedClassName="Member" syncable="YES" codeGenerationType="class">
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="occupation" optional="YES" attributeType="String"/>
+    </entity>
+    <fetchRequest name="Doctors" entity="Member" predicateString="occupation == &quot;Doctor&quot;"/>
+    <fetchRequest name="Engineers" entity="Member" predicateString="occupation == &quot;Engineer&quot;"/>
+    <fetchRequest name="StartsWith_B" entity="Member" predicateString="name BEGINSWITH &quot;B&quot;"/>
+    <fetchRequest name="StartsWith_R" entity="Member" predicateString="name BEGINSWITH &quot;R&quot;"/>
+    <elements>
+        <element name="Member" positionX="-27" positionY="18" width="128" height="59"/>
+    </elements>
+</model>
