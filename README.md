@@ -1,6 +1,6 @@
 # 💾 CoreDataFetchTemplateExample
 
-💾 Sample project to demonstrate CoreData fetch request templates.
+💾 Sample project to demonstrate Core Data fetch request templates.
 
 # 📄Tutorial in Medium
 
