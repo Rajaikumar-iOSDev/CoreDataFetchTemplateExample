@@ -1,2 +1,2 @@
 # CoreDataFetchTemplateExample
-💾 Sample project to demonstarate CoreData fetch request template.
+💾 Sample project to demonstrate CoreData fetch request templates.
